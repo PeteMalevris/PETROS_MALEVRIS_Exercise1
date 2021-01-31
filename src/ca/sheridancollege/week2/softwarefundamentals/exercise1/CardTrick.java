@@ -49,6 +49,8 @@ public class CardTrick {
         user.setValue(intInput());
         System.out.println("Pick a suit (0 = Hearts, 1 = Diamonds, 2 = Spades, 3 = Clubs): ");
         user.setSuit(Card.SUITS[intInput()]);
+        System.out.println("Your card is the " + user.getValue() + " of " +
+                user.getSuit());
         // and search magicHand here
         
     }
